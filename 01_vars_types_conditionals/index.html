@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript - Variables, tipos de datos y condicionales</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/svg+xml" href="../iso.svg" sizes="any" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Variables, tipos de datos y condicionales</h1>
+      <nav>
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="../index.html">Volver</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 class="main__title">Instrucciones</h2>
+      <p class="main__description">
+        Completa cada uno de los ejercicios en el
+        <span class="task__highlight">01_vars_types_conditionals/main.js</span>.
+        Escribo el codigo debajo su respectivo comentario:
+        <span class="task__highlight">/** Ejercicio XX **/</span>
+      </p>
+      <section id="easy" class="tasks">
+        <ol class="tasks__list">
+          <li class="task">
+            <p class="task__number">00</p>
+            <p class="task__description">
+              Crear una variable llamada
+              <span class="task__highlight">value</span> que contenga un number
+              con el valor <span class="task__highlight">85</span>.
+            </p>
+            <p id="00" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+          <li class="task">
+            <p class="task__number">01</p>
+            <p class="task__description">
+              Crear una variable llamada
+              <span class="task__highlight">color</span> que contenga un string
+              con el valor <span class="task__highlight">red</span>.
+            </p>
+            <p id="01" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+          <li class="task">
+            <p class="task__number">02</p>
+            <p class="task__description">
+              Crear una variable llamada
+              <span class="task__highlight">two</span> que contenga un bool con
+              el valor <span class="task__highlight">true</span>.
+            </p>
+            <p id="02" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+          <li class="task">
+            <p class="task__number">03</p>
+            <p class="task__description">
+              Crea una variable llamada
+              <span class="task__highlight">operation</span> cuyo valor sea el
+              resultado de multiplicar (*)
+              <span class="task__highlight">4 por 7</span>.
+            </p>
+            <p id="03" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+          <li class="task">
+            <p class="task__number">04</p>
+            <p class="task__description">
+              Crear dos variables, una llamada
+              <span class="task__highlight">valueA</span> cuyo valor sea
+              <span class="task__highlight">10</span> y otra llamada
+              <span class="task__highlight">valueB</span> cuyo valor sea igual a
+              el valor de <span class="task__highlight">valueA mas (+) 5</span>.
+            </p>
+            <p id="04" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+          <li class="task">
+            <p class="task__number">05</p>
+            <p class="task__description">
+              Crea tres variables: -
+              <span class="task__highlight">name</span> cuyo valor sea
+              <span class="task__highlight">Maria</span> -
+              <span class="task__highlight">lastName</span> cuyo valor sea
+              <span class="task__highlight">Diaz</span> -
+              <span class="task__highlight">text</span> cuyo valor concatene los
+              valores de name y lastName para obtener el siguiente resultado
+              <span class="task__highlight">Hola Maria Diaz!</span>.
+            </p>
+            <p id="05" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+          <li class="task">
+            <p class="task__number">06</p>
+            <p class="task__description">
+              Crea tres variables -
+              <span class="task__highlight">nameA</span> cuyo valor sea
+              <span class="task__highlight">Maria</span> -
+              <span class="task__highlight">lastNameA</span> cuyo valor sea
+              <span class="task__highlight">Diaz</span> -
+              <span class="task__highlight">textA</span> cuyo valor concatene
+              los valores de nameA y lastNameA para obtener el siguiente
+              resultado
+              <span class="task__highlight"
+                >Hola Maria, hemos registrado tu usuario como diaz_maria</span
+              >
+              (pista: toLowerCase).
+            </p>
+            <p id="06" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+          <li class="task">
+            <p class="task__number">07</p>
+            <p class="task__description">
+              Crea tres variables -
+              <span class="task__highlight">nameB</span> cuyo valor sea
+              <span class="task__highlight">Maria</span> -
+              <span class="task__highlight">salary</span> cuyo valor sea
+              <span class="task__highlight">35000</span> -
+              <span class="task__highlight">textB</span> cuyo valor concatene
+              los valores de name y salary para obtener el siguiente resultado
+              <span class="task__highlight"
+                >Hola Maria, el saldo de tu cuenta es $35.000,00</span
+              >
+              (pista: toLocaleString).
+            </p>
+            <p id="07" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+          <li class="task">
+            <p class="task__number">08</p>
+            <p class="task__description">
+              Crear una condicional que valide
+              <span class="task__highlight"
+                >si el valor de la variable numberA es mayor que 100</span
+              >. Si es asi cambiar el valor de la variable result a true, si no
+              es así cambiar a false.
+            </p>
+            <p id="08" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+          <li class="task">
+            <p class="task__number">09</p>
+            <p class="task__description">
+              Crear una condicional que valide
+              <span class="task__highlight"
+                >si el valor de la variable numberB es mayor o igual que
+                50</span
+              >. Si es asi cambiar el valor de la variable result a true, si no
+              es así cambiar a false.
+            </p>
+            <p id="09" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+          <li class="task">
+            <p class="task__number">10</p>
+            <p class="task__description">
+              Crear una condicional que valide
+              <span class="task__highlight"
+                >si el valor de la variable numberC es mayor que 100 y menor que
+                200</span
+              >. Si es asi cambiar el valor de la variable result a true, si no
+              es así cambiar a false.
+            </p>
+            <p id="10" class="task__status task__status--pending">
+              Estado: Pendiente...
+            </p>
+          </li>
+        </ol>
+      </section>
+    </main>
+    <script src="main.js"></script>
+    <script src="validations.js"></script>
+  </body>
+</html>

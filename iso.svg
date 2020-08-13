@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="157px" viewBox="0 0 124 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>iso</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Full-Stack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-172.000000, -740.000000)">
+        <g id="iso" transform="translate(172.000000, 740.000000)" fill="#5500FF" fill-rule="nonzero">
+            <path d="M120.69,150.13 L110.39,124.23 L108.46,119.37 L37.09,119.37 L24.2,151.91 L7.07,151.91 L25.75,103.7 L102.24,103.7 L102.24,103.64 L99.6,97 L65.55,11.42 L61,0 L56.54,11.45 L48.08,33.11 L47.4,34.88 L48.1,36.65 L72.63,98.86 L22.43,98.86 L21.23,102 L2.55,150.17 L0,156.75 L27.49,156.75 L28.7,153.69 L40.38,124.22 L82.63,124.22 L83.33,125.97 L94.26,153.68 L95.46,156.75 L123.34,156.75 L120.69,150.13 Z M52.59,34.86 L61,13.2 L95.1,98.79 L77.8,98.79 L52.59,34.86 Z M98.76,151.86 L87.84,124.23 L105.18,124.23 L116.18,151.91 L98.76,151.86 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
